@@ -18,6 +18,33 @@ A cross-platform Python package for visualizing directory structures in a tree-l
 - 📏 Size-based filtering
 - 🎯 Pattern matching
 
+## Demo
+
+```
+$ prettree
+D:/Codes/FileTree
+├── dist
+│   ├── prettree-0.1.0-py3-none-any.whl (5,368 bytes)
+│   └── prettree-0.1.0.tar.gz (4,773 bytes)
+├── src
+│   ├── prettree
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-313.pyc (244 bytes)
+│   │   │   ├── cli.cpython-313.pyc (2,792 bytes)
+│   │   │   └── core.cpython-313.pyc (6,148 bytes)
+│   │   ├── __init__.py (88 bytes)
+│   │   ├── cli.py (2,267 bytes)
+│   │   └── core.py (4,103 bytes)
+│   └── prettytree
+│       └── __init__.py (1 bytes)
+├── tests
+│   └── test_prettree.py (1,384 bytes)
+├── ~
+├── LICENSE.md (1,096 bytes)
+├── pyproject.toml (1,170 bytes)
+└── README.md (1,966 bytes)
+```
+
 ## Installation
 
 ```bash
