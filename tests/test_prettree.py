@@ -1,6 +1,6 @@
 import pytest
 from pathlib import Path
-from prettytree import list_directory
+from prettree import list_directory
 
 def test_basic_directory_listing(tmp_path):
     # Create a test directory structure
